@@ -5,6 +5,9 @@
 ## References
 Based on GeekForGeeks python3 [program to find convex hull of a set of points](https://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/). Refer [GeekForGeeks orientation function](https://www.geeksforgeeks.org/orientation-3-ordered-points/) for explanation of orientation()
 
+Theory of the algorithm taken of:
+Cormen, T. H., Leiserson, C. E., Rivest, R. L., &  Stein, C. (2022). Introduction to Algorithms. MIT Press.
+
 ## Set up the program
 
 0. First of all, It's recommended to create a virtual enviroment. You can do it using python ```venv``` library. Go to the root folder of this repository and run the following commands:
