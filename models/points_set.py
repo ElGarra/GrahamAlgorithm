@@ -3,12 +3,14 @@ from models.point import Point
 
 # A class used to create the set of points to use on CH Algorithm
 
+# La classe PointsSet, qui génère avec la bibliothèque 
+# "random" des ensembles de points selon les hypothèses de l'algorithme de Graham.
 class PointsSet:
 
 	def __init__(self):
 		# Initial list of random points
-		self.len_list = random.randint(10, 20)
-		self.input_points = [(random.randint(0, 20),random.randint(0, 20)) for i in range(self.len_list)]
+		self.len_list = random.randint(100, 200)
+		self.input_points = [(random.randint(0, 100),random.randint(0, 100)) for i in range(self.len_list)]
 		self.input_points.append((0, 0))
 
 		# Clean duplicates of the list

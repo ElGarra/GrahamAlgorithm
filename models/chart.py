@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+# Et finalment, la classe Chart, qui permet de tracer les points dans l'espace et l'enveloppe convexe.
 class Chart:
 	
 	def __init__(self, points_x, points_y, ch_points_x, ch_points_y):
@@ -21,3 +22,4 @@ class Chart:
 		plt.plot(self.ch_points_x, self.ch_points_y, label = "convex hull", color='orange')
 		plt.legend()
 		plt.show()
+

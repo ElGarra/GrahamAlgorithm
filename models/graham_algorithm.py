@@ -3,6 +3,8 @@ from models.point import Point
 
 # A class used to define some utility functions and the main Graham Scan Algorithm
 
+# La classe GrahamAlgorithm, qui simule toute la logique de l'algorithme.
+# Il s'agit notamment des fonctions de tri, de recherche, de push et de pop.
 class GrahamAlgorithm:
 
 	def __init__(self, points):

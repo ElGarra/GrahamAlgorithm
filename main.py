@@ -18,6 +18,11 @@ from models.graham_algorithm import GrahamAlgorithm
 from models.chart import Chart
 
 
+# Notre implémentation Python comprend 4 classes qui nous permettent de simuler le programme :
+
+# Si nous exécutons le programme plusieurs fois, nous pouvons voir les coordonnées 
+# des points qui composent l'enveloppe convexe, et un graphique représentant l'enveloppe convexe.
+
 if __name__ == "__main__":
 	points_set = PointsSet()
 	graham_algorithm = GrahamAlgorithm(points_set.points)
