@@ -7,4 +7,31 @@ Based on GeekForGeeks python3 [program to find convex hull of a set of points](h
 
 ## Set up the program
 
-Soon
+0. First of all, It's recommended to create a virtual enviroment. You can do it using python ´´´venv´´´ library. Go to the root folder of this repository and run the following commands:
+
+1. Create the virtual enviroment:
+´´´
+python3 -m venv virtualenv # Create a virtual enviroment called virtualenv
+´´´
+
+2. activate the virtual enviroment:
+´´´
+source virtualenv/bin/activate
+´´´
+
+3. Install dependencies:
+´´´
+pip install -r requirements.txt # Install in the virtual enviroment all the dependencies listed on requirements.txt file
+´´´
+
+4. If you want to deactivate the virtual enviroment after use the programme:
+´´´
+deactivate
+´´´
+
+## Run the programme
+
+´´´
+python3 main.py
+´´´
+
